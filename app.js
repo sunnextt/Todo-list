@@ -24,7 +24,6 @@ app.post("/", function(req, res){
 const item = req.body.newItem;
 const itemHeading = req.body.list
 
-console.log(itemHeading);
 
 if (itemHeading === "Work"){
   workItems.push(item);
